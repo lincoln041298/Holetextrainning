@@ -4,7 +4,9 @@ const initState = {
     status: "All",
     priority: [],
   },
-  todoLists: {},
+  todoLists: [
+    { id: 1, name: "Learn Yoga", completed: false, priority: "Medium" },
+  ],
 };
 
 const rootReducer = (state = initState, action) => {};
