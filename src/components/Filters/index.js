@@ -6,7 +6,7 @@ import { searchFilterChange } from "../../redux/actions";
 const { Search } = Input;
 
 export default function Filters() {
-  const dispath = useDispatch
+  const dispath = useDispatch()
   const [SearchText, setSearchText] = useState("");
   const handleSearchTextchange = (e) => {
     setSearchText(e.target.value);
