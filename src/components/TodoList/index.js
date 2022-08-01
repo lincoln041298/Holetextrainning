@@ -38,8 +38,7 @@ export default function TodoList() {
         <Input.Group style={{ display: 'flex' }} >
           <Input compact="true" value={todoName} onChange={handleInputChange} />
           <Select defaultValue="Medium" value={priority} onChange={handlePriorityChange}>
-            <Select.Option value='High' label='High'>
-              <Tag color='red'>High</Tag>
+            <Select.Option value='High' label='High'> 
             </Select.Option>
             <Select.Option value='Medium' label='Medium'>
               <Tag color='blue'>Medium</Tag>
